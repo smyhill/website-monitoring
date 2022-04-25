@@ -11,8 +11,8 @@ carriers = {
 email = 'youremail@gmail.com'
 password = 'yourgmailpassword'
 
-def send(message, phone_number, carrier,):
-    # replace the carrier with your own from the options above
+def send(message, phone_number, carrier):
+    	# replace the carrier with your own from the options above
 	to_number = phone_number + '{}'.format(carrier)
 	auth = (email, password)
 
